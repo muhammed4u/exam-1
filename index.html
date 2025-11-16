@@ -2,10 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Discover the hottest properties available in the market with just one click."> 
+    <meta name="keywords" content="HTML, CSS, JavaScript"> <meta name="author" content="EliteHomes">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EliteHomes - Your Dream Home Awaits</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="shortcut icon" href="Images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"> 
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
@@ -21,25 +24,23 @@
           <a class="nav-link active" aria-current="page" href="#home">Home</a>
         </li>
                 <li class="nav-item dropdown position-relative">
-                    <a class="nav-link dropdown-toggle" href="#" id="propertiesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Properties <i class="fa fa-chevron-down ms-1" aria-hidden="true"></i>
+                    <a class="nav-link dropdown-toggle d-flex align-items-center gap-1" href="#properties" id="propertiesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Properties
+                        <i class="fa-solid fa-chevron-down dropdown-chevron ms-1" aria-hidden="true"></i>
                     </a>
-                    <div class="dropdown-menu dropdown-mega bg-white shadow-lg rounded-3 p-3" aria-labelledby="propertiesDropdown">
-                        <button type="button" class="mega-close-btn btn btn-light d-lg-none" aria-label="Close properties menu">
-                            <i class="fa fa-times" aria-hidden="true"></i>
-                        </button>
+                    <div class="dropdown-menu dropdown-mega" aria-labelledby="propertiesDropdown">
                         <div class="row g-4">
                                 <div class="col-md-3">
                                     <h6 class="fw-bold mb-3">Featured Properties</h6>
                                     <div class="d-flex align-items-center">
-                                        <img src="photo/luxury-villa.jpeg.jpg" class="rounded" alt="Luxury Villa">
+                                        <img loading="lazy" decoding="async" src="photo/luxury-villa.jpeg" class="rounded" alt="Luxury Villa">
                                         <div>
                                             <div class="fw-bold">Luxury Villa</div>
                                             <small class="text-muted">$2.5M • 5 beds • 4 baths</small>
                                         </div>
                                     </div>
                                     <div class="d-flex align-items-center">
-                                        <img src="photo/modern-apartment.jpeg.jpg" class="rounded" alt="Modern Apartment">
+                                        <img loading="lazy" decoding="async" src="photo/modern-apartment.jpeg" class="rounded" alt="Modern Apartment">
                                         <div>
                                             <div class="fw-bold">Modern Apartment</div>
                                             <small class="text-muted">$850K • 2 beds • 2 baths</small>
@@ -49,11 +50,11 @@
                                 <div class="col-md-3">
                                     <h6 class="fw-bold mb-3">Property Types</h6>
                                     <ul class="list-unstyled">
-                                        <li class="mb-2"><i class="fa-solid fa-house me-2 text-muted"></i> <a href="#" class="text-decoration-none text-muted">Single Family Homes</a></li>
-                                        <li class="mb-2"><i class="fa-solid fa-building me-2 text-muted"></i> <a href="#" class="text-decoration-none text-muted">Apartments</a></li>
-                                        <li class="mb-2"><i class="fa-solid fa-door-closed me-2 text-muted"></i> <a href="#" class="text-decoration-none text-muted">Condominiums</a></li>
-                                        <li class="mb-2"><i class="fa-solid fa-store me-2 text-muted"></i> <a href="#" class="text-decoration-none text-muted">Commercial</a></li>
-                                        <li class="mb-2"><i class="fa-solid fa-tree me-2 text-muted"></i> <a href="#" class="text-decoration-none text-muted">Land &amp; Lots</a></li>
+                                        <li class="mb-2"><i class="fa-solid fa-house-chimney-window me-2 text-primary"></i> <a href="#" class="text-decoration-none text-dark">Single Family Homes</a></li>
+                                        <li class="mb-2"><i class="fa-solid fa-city me-2 text-primary"></i> <a href="#" class="text-decoration-none text-dark">Apartments</a></li>
+                                        <li class="mb-2"><i class="fa-solid fa-building-columns me-2 text-primary"></i> <a href="#" class="text-decoration-none text-dark">Condominiums</a></li>
+                                        <li class="mb-2"><i class="fa-solid fa-shop me-2 text-primary"></i> <a href="#" class="text-decoration-none text-dark">Commercial</a></li>
+                                        <li class="mb-2"><i class="fa-solid fa-tree-city me-2 text-primary"></i> <a href="#" class="text-decoration-none text-dark">Land &amp; Lots</a></li>
                                     </ul>
                                 </div>
                                 <div class="col-md-3">
@@ -73,52 +74,27 @@
                                 </div>
                                 <div class="col-md-3">
                                     <h6 class="fw-bold mb-3">Resources</h6>
-
-                                    <div class="card border-0 mb-3 dropdown-resource-buying resource-card">
+                                    <div class="card border-0 mb-3 dropdown-resource-buying">
                                         <div class="card-body">
-                                            <div class="resource-header d-flex align-items-start">
-                                                <div class="resource-icon resource-icon-purple me-3"><i class="fa-solid fa-book-open"></i></div>
-                                                <div>
-                                                    <div class="resource-title">Buying Guide</div>
-                                                    <div class="resource-desc small text-muted">Essential tips and strategies for first-time homebuyers</div>
-                                                </div>
-                                            </div>
-                                            <div class="mt-3">
-                                                <a href="#" class="resource-link resource-link-purple">Learn More <i class="fa-solid fa-arrow-right ms-2"></i></a>
-                                            </div>
+                                            <div class="d-flex align-items-center mb-1"><i class="fa-solid fa-book-open-reader me-2 text-primary"></i><span class="fw-bold">Buying Guide</span></div>
+                                            <small class="text-muted d-block mb-2">Essential tips and strategies for first-time homebuyers</small>
+                                            <a href="#" class="text-decoration-none small fw-semibold" style="color: var(--primary);">Learn More</a>
                                         </div>
                                     </div>
-
-                                    <div class="card border-0 mb-3 dropdown-resource-investing resource-card">
+                                    <div class="card border-0 mb-3 dropdown-resource-investing">
                                         <div class="card-body">
-                                            <div class="resource-header d-flex align-items-start">
-                                                <div class="resource-icon resource-icon-green me-3"><i class="fa-solid fa-chart-line"></i></div>
-                                                <div>
-                                                    <div class="resource-title">Investment Tips</div>
-                                                    <div class="resource-desc small text-muted">Smart strategies for property investment success</div>
-                                                </div>
-                                            </div>
-                                            <div class="mt-3">
-                                                <a href="#" class="resource-link resource-link-green">Learn More <i class="fa-solid fa-arrow-right ms-2"></i></a>
-                                            </div>
+                                            <div class="d-flex align-items-center mb-1"><i class="fa-solid fa-chart-line me-2 text-success"></i><span class="fw-bold">Investment Tips</span></div>
+                                            <small class="text-muted d-block mb-2">Smart strategies for property investment success</small>
+                                            <a href="#" class="text-decoration-none small fw-semibold" style="color: var(--primary);">Learn More</a>
                                         </div>
                                     </div>
-
-                                    <div class="card border-0 dropdown-resource-market resource-card">
+                                    <div class="card border-0 dropdown-resource-market">
                                         <div class="card-body">
-                                            <div class="resource-header d-flex align-items-start">
-                                                <div class="resource-icon resource-icon-purple me-3"><i class="fa-solid fa-file-lines"></i></div>
-                                                <div>
-                                                    <div class="resource-title">Market Reports</div>
-                                                    <div class="resource-desc small text-muted">In-depth analysis of real estate market trends</div>
-                                                </div>
-                                            </div>
-                                            <div class="mt-3">
-                                                <a href="#" class="resource-link resource-link-purple">Learn More <i class="fa-solid fa-arrow-right ms-2"></i></a>
-                                            </div>
+                                            <div class="d-flex align-items-center mb-1"><i class="fa-solid fa-file-lines me-2 text-purple"></i><span class="fw-bold">Market Reports</span></div>
+                                            <small class="text-muted d-block mb-2">In-depth analysis of real estate market trends</small>
+                                            <a href="#" class="text-decoration-none small fw-semibold" style="color: var(--primary);">Learn More</a>
                                         </div>
                                     </div>
-
                                 </div>
                         </div>
                     </div>
@@ -142,85 +118,85 @@
 <header class="header-section vh-100" id="home">
     <div class="container h-100 d-flex justify-content-center align-items-center">
         <div class="header-content text-white text-center">
-            <h1 class="display-4 fw-bold">Find Your Dream Home</h1>
+            <h1 class="display-4 fw-bold mt-5 py-2 pt-3">Find Your Dream Home</h1>
             <p class="w-60 fs-6 mx-auto">Discover exceptional properties in prime locations. From modern condos to luxury estates, we help you find the perfect place to call home.</p>
 
-            <div class="search-card w-75 mt-5 mx-auto">
-              <form id="property-search-form">
-                <div class="row g-3 mb-2">
-                  <div class="col-lg-6">
-                    <label class="label-small">Location</label>
-                    <div class="input-group search-location-wrapper">
-                      <input type="search" class="form-control ps-5" placeholder="Enter city, neighborhood, or ZIP code" aria-label="Location">
-                      <i class="fa-solid fa-location-dot search-location-icon"></i>
-                    </div>
-                  </div>
+                        <div class="search-card w-75 mt-5 mx-auto card p-3 p-lg-4">
+                            <form id="property-search-form">
+                                <div class="row g-3 mb-2">
+                                    <div class="col-lg-6">
+                                        <label class="form-label small fw-semibold">Location</label>
+                                        <div class="input-group search-location-wrapper">
+                                            <input type="search" class="form-control ps-5" placeholder="Enter city, neighborhood, or ZIP code" aria-label="Location">
+                                            <i class="fa-solid fa-location-dot search-location-icon"></i>
+                                        </div>
+                                    </div>
 
-                  <div class="col-lg-3">
-                    <label class="label-small">Property Type</label>
-                    <select class="form-select" aria-label="Property Type">
-                      <option selected>All Types</option>
-                      <option>House</option>
-                      <option>Apartment</option>
-                      <option>Condo</option>
-                      <option>Townhouse</option>
-                    </select>
-                  </div>
+                                    <div class="col-lg-3">
+                                        <label class="form-label small fw-semibold">Property Type</label>
+                                        <select class="form-select" aria-label="Property Type">
+                                            <option selected>All Types</option>
+                                            <option>House</option>
+                                            <option>Apartment</option>
+                                            <option>Condo</option>
+                                            <option>Townhouse</option>
+                                        </select>
+                                    </div>
 
-                  <div class="col-lg-3">
-                    <label class="label-small">Price Range</label>
-                    <select class="form-select" aria-label="Price Range">
-                      <option selected>Any Price</option>
-                      <option>$0 - $500k</option>
-                      <option>$500k - $1M</option>
-                      <option>$1M - $2M</option>
-                      <option>$2M+</option>
-                    </select>
-                  </div>
-                </div>
+                                    <div class="col-lg-3">
+                                        <label class="form-label small fw-semibold">Price Range</label>
+                                        <select class="form-select" aria-label="Price Range">
+                                            <option selected>Any Price</option>
+                                            <option>$0 - $500k</option>
+                                            <option>$500k - $1M</option>
+                                            <option>$1M - $2M</option>
+                                            <option>$2M+</option>
+                                        </select>
+                                    </div>
+                                </div>
 
-                <div class="row g-3 mb-2">
-                  <div class="col-lg-3">
-                    <label class="label-small">Bedrooms</label>
-                    <select class="form-select">
-                      <option selected>Any</option>
-                      <option>1+</option>
-                      <option>2+</option>
-                      <option>3+</option>
-                      <option>4+</option>
-                    </select>
-                  </div>
+                                <div class="row g-3 mb-2">
+                                    <div class="col-lg-3">
+                                        <label class="form-label small fw-semibold">Bedrooms</label>
+                                        <select class="form-select">
+                                            <option selected>Any</option>
+                                            <option>1+</option>
+                                            <option>2+</option>
+                                            <option>3+</option>
+                                            <option>4+</option>
+                                        </select>
+                                    </div>
 
-                  <div class="col-lg-3">
-                    <label class="label-small">Bathrooms</label>
-                    <select class="form-select">
-                      <option selected>Any</option>
-                      <option>1+</option>
-                      <option>2+</option>
-                      <option>3+</option>
-                      <option>4+</option>
-                    </select>
-                  </div>
+                                    <div class="col-lg-3">
+                                        <label class="form-label small fw-semibold">Bathrooms</label>
+                                        <select class="form-select">
+                                            <option selected>Any</option>
+                                            <option>1+</option>
+                                            <option>2+</option>
+                                            <option>3+</option>
+                                            <option>4+</option>
+                                        </select>
+                                    </div>
 
-                  <div class="col-lg-3">
-                    <label class="label-small">Min Sq Ft</label>
-                    <input type="number" class="form-control" placeholder="1,000" min="0">
-                  </div>
+                                    <div class="col-lg-3">
+                                        <label class="form-label small fw-semibold">Min Sq Ft</label>
+                                        <input type="number" class="form-control" placeholder="1,000" min="0">
+                                    </div>
 
-                  <div class="col-lg-3">
-                    <label class="label-small">Max Sq Ft</label>
-                    <input type="number" class="form-control" placeholder="5,000" min="0">
-                  </div>
-                </div>
+                                    <div class="col-lg-3">
+                                        <label class="form-label small fw-semibold">Max Sq Ft</label>
+                                        <input type="number" class="form-control" placeholder="5,000" min="0">
+                                    </div>
+                                </div>
 
-                                <button class="btn-brand w-100" type="submit">
-                                    <span class="btn-icon">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                  </span>
-                  Search Properties
-                </button>
-              </form>
-            </div>
+                                                                <button class="btn-brand w-100" type="submit">
+                                                                        <span class="btn-icon">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </span>
+                                    Search Properties
+                                </button>
+                            </form>
+                        </div>
 
             <div class="stats-section px-3 py-5">
                 <div class="row text-center">
@@ -246,6 +222,7 @@
         </div>
 
 
+
     </div>
 
 </header>
@@ -267,18 +244,16 @@
 
         <div class="row g-4 mb-5 justify-content-center">
             <div class="col-lg-4 col-md-6">
-                <div class="card border-0 shadow-sm rounded-4 overflow-hidden h-auto">
+                <div class="card border-0 shadow-sm rounded-4 overflow-hidden h-auto featured-card">
                     <div class="position-relative overflow-hidden">
-                        <img src="photo/featured-properties-img-1.png" class="card-img-top" alt="Modern Luxury Estate">
+                        <img loading="lazy" decoding="async" src="photo/featured-properties-img-1.png" class="card-img-top img-fluid" alt="Modern Luxury Estate">
                         <span class="badge bg-primary position-absolute top-0 start-0 m-3">Featured</span>
                         <span class="badge bg-light text-dark position-absolute bottom-0 start-0 m-3">
                             <i class="fa-solid fa-camera"></i> 24 Photos
                         </span>
-                        <button class="btn btn-light btn-sm position-absolute top-0 end-0 m-3 rounded-circle d-flex align-items-center justify-content-center btn-circle-sm">
-                            <i class="fa-solid fa-heart"></i>
-                        </button>
+                        <button class="favorite-btn btn btn-light btn-sm position-absolute top-0 end-0 m-3 d-flex align-items-center justify-content-center" aria-label="Add to favorites"><i class="fa-solid fa-heart"></i></button>
                     </div>
-                    <div class="card-body">
+                    <div class="card-body p-4">
                         <h5 class="card-title fw-bold mb-2 price-amount">$2,850,000</h5>
                         <p class="text-muted small mb-2">Price per sq ft: $425</p>
                         <p class="text-muted small mb-3">4 beds • 3 baths • 6,720 sqft</p>
@@ -286,7 +261,7 @@
                         <p class="text-muted small mb-3">1234 Beverly Hills Drive, Beverly Hills, CA 90210</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="d-flex align-items-center">
-                                    <img src="photo/avatar-1.jpg" class="rounded-circle me-2 avatar-sm" alt="Agent">
+                                <img loading="lazy" decoding="async" src="photo/avatar-1.jpg" class="rounded-circle me-2 avatar-sm" alt="Agent">
                                 <span class="small">John Mitchell</span>
                             </div>
                             <button class="btn btn-sm soft-purple-btn">Schedule Tour</button>
@@ -296,18 +271,16 @@
             </div>
 
             <div class="col-lg-4 col-md-6">
-                <div class="card border-0 shadow-sm rounded-4 overflow-hidden h-auto">
+                <div class="card border-0 shadow-sm rounded-4 overflow-hidden h-auto featured-card">
                     <div class="position-relative overflow-hidden">
-                        <img src="photo/featured-properties-img-2.png" class="card-img-top" alt="Downtown Penthouse">
+                        <img loading="lazy" decoding="async" src="photo/featured-properties-img-2.png" class="card-img-top img-fluid" alt="Downtown Penthouse">
                         <span class="badge bg-success position-absolute top-0 start-0 m-3">New Listing</span>
                         <span class="badge bg-light text-dark position-absolute bottom-0 start-0 m-3">
                             <i class="fa-solid fa-camera"></i> 18 Photos
                         </span>
-                        <button class="btn btn-light btn-sm position-absolute top-0 end-0 m-3 rounded-circle d-flex align-items-center justify-content-center btn-circle-sm">
-                            <i class="fa-solid fa-heart"></i>
-                        </button>
+                        <button class="favorite-btn btn btn-light btn-sm position-absolute top-0 end-0 m-3 d-flex align-items-center justify-content-center" aria-label="Add to favorites"><i class="fa-solid fa-heart"></i></button>
                     </div>
-                    <div class="card-body">
+                    <div class="card-body p-4">
                         <h5 class="card-title fw-bold mb-2 price-amount">$1,425,000</h5>
                         <p class="text-muted small mb-2">Price per sq ft: $650</p>
                         <p class="text-muted small mb-3">3 beds • 2.5 baths • 2,192 sqft</p>
@@ -315,7 +288,7 @@
                         <p class="text-muted small mb-3">789 Metropolitan Ave, New York, NY 10001</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="d-flex align-items-center">
-                                <img src="photo/avatar-2.jpg" class="rounded-circle me-2 avatar-sm" alt="Agent">
+                                <img loading="lazy" decoding="async" src="photo/avatar-2.jpg" class="rounded-circle me-2 avatar-sm" alt="Agent">
                                 <span class="small">Emily Rodriguez</span>
                             </div>
                             <button class="btn btn-sm soft-purple-btn">Schedule Tour</button>
@@ -325,18 +298,16 @@
             </div>
 
             <div class="col-lg-4 col-md-6">
-                <div class="card border-0 shadow-sm rounded-4 overflow-hidden h-auto">
+                <div class="card border-0 shadow-sm rounded-4 overflow-hidden h-auto featured-card">
                     <div class="position-relative overflow-hidden">
-                        <img src="photo/featured-properties-img-3.png" class="card-img-top" alt="Family Suburban Home">
+                        <img loading="lazy" decoding="async" src="photo/featured-properties-img-3.png" class="card-img-top img-fluid" alt="Family Suburban Home">
                         <span class="badge bg-danger position-absolute top-0 start-0 m-3">Price Drop</span>
                         <span class="badge bg-light text-dark position-absolute bottom-0 start-0 m-3">
                             <i class="fa-solid fa-camera"></i> 32 Photos
                         </span>
-                        <button class="btn btn-light btn-sm position-absolute top-0 end-0 m-3 rounded-circle d-flex align-items-center justify-content-center btn-circle-sm">
-                            <i class="fa-solid fa-heart"></i>
-                        </button>
+                        <button class="favorite-btn btn btn-light btn-sm position-absolute top-0 end-0 m-3 d-flex align-items-center justify-content-center" aria-label="Add to favorites"><i class="fa-solid fa-heart"></i></button>
                     </div>
-                    <div class="card-body">
+                    <div class="card-body p-4">
                         <h5 class="card-title fw-bold mb-2 price-amount">$875,000</h5>
                         <p class="text-muted small mb-2"><span class="text-decoration-line-through muted-strike">$925,000</span></p>
                         <p class="text-muted small mb-3">5 beds • 4 baths • 3,845 sqft</p>
@@ -344,7 +315,7 @@
                         <p class="text-muted small mb-3">456 Oak Tree Lane, Austin, TX 78701</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="d-flex align-items-center">
-                                <img src="photo/avatar-3.jpg" class="rounded-circle me-2 avatar-sm" alt="Agent">
+                                <img loading="lazy" decoding="async" src="photo/avatar-3.jpg" class="rounded-circle me-2 avatar-sm" alt="Agent">
                                 <span class="small">Michael Chen</span>
                             </div>
                             <button class="btn btn-sm soft-purple-btn">Schedule Tour</button>
@@ -372,7 +343,7 @@
             <p class="text-secondary section-description text-center mx-auto">Comprehensive real estate solutions tailored to your needs</p>
         </div>
 
-        <ul class="nav nav-tabs justify-content-center mb-5 border-0" id="servicesTabs" role="tablist">
+        <ul class="nav nav-tabs justify-content-center mb-5 border-bottom" id="servicesTabs" role="tablist">
             <li class="nav-item" role="presentation">
                 <button class="nav-link active fw-semibold" id="buying-tab" data-bs-toggle="tab" data-bs-target="#buying" type="button" role="tab" aria-controls="buying" aria-selected="true">🏠 Buying</button>
             </li>
@@ -428,11 +399,13 @@
                         </div>
 
                         <div class="col-lg-7">
-                                <div class="position-relative">
-                                <img src="photo/service-img-1.webp" class="img-fluid rounded-4 service-image" alt="Home Buying">
-                                <div class="image-stat-card-bottom" aria-hidden="false">
-                                    <div class="image-stat-value">98%</div>
-                                    <div class="image-stat-label">Success Rate</div>
+                            <div class="position-relative" style="overflow: visible;">
+                                <img loading="lazy" decoding="async" src="photo/service-img-1.webp" class="img-fluid rounded-4 service-image" alt="Home Buying">
+                                <div class="position-absolute bottom-0 start-0 m-3 bg-white px-3 py-2 rounded-3 shadow service-stat-badge left-badge">
+                                    <div class="text-center">
+                                        <p class="fw-bold mb-0 service-stat-value service-stat-value-purple">98%</p>
+                                        <p class="small text-secondary mb-0 service-stat-label">Success Rate</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -477,11 +450,13 @@
                         </div>
 
                         <div class="col-lg-7">
-                                <div class="position-relative">
-                                <img src="photo/service-img-2.webp" class="img-fluid rounded-4 service-image" alt="Home Selling">
-                                <div class="image-stat-card-bottom">
-                                    <div class="image-stat-value">21 days</div>
-                                    <div class="image-stat-label">Avg. Time to Sell</div>
+                            <div class="position-relative" style="overflow: visible;">
+                                <img loading="lazy" decoding="async" src="photo/service-img-2.webp" class="img-fluid rounded-4 service-image" alt="Home Selling">
+                                <div class="position-absolute bottom-0 end-0 m-3 bg-white px-3 py-2 rounded-3 shadow service-stat-badge">
+                                    <div class="text-center">
+                                        <p class="fw-bold mb-0 service-stat-value service-stat-value-green">21 days</p>
+                                        <p class="small text-secondary mb-0 service-stat-label">Avg. Time to Sell</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -526,11 +501,13 @@
                         </div>
 
                         <div class="col-lg-7">
-                                <div class="position-relative">
-                                <img src="photo/service-img-3.webp" class="img-fluid rounded-4 service-image" alt="Premium Rentals">
-                                <div class="image-stat-card-bottom">
-                                    <div class="image-stat-value">5,000+</div>
-                                    <div class="image-stat-label">Available Rentals</div>
+                            <div class="position-relative" style="overflow: visible;">
+                                <img loading="lazy" decoding="async" src="photo/service-img-3.webp" class="img-fluid rounded-4 service-image" alt="Premium Renting">
+                                <div class="position-absolute bottom-0 end-0 m-3 bg-white px-3 py-2 rounded-3 shadow service-stat-badge">
+                                    <div class="text-center">
+                                        <p class="fw-bold mb-0 service-stat-value service-stat-value-green">5,000+</p>
+                                        <p class="small text-secondary mb-0 service-stat-label">Available Rentals</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -575,11 +552,13 @@
                         </div>
 
                         <div class="col-lg-7">
-                                <div class="position-relative">
-                                <img src="photo/service-img-4.webp" class="img-fluid rounded-4 service-image service-image-investing" alt="Real Estate Investment">
-                                <div class="image-stat-card-bottom">
-                                    <div class="image-stat-value">15%</div>
-                                    <div class="image-stat-label">Avg. Annual ROI</div>
+                            <div class="position-relative" style="overflow: visible;">
+                                <img loading="lazy" decoding="async" src="photo/service-img-4.png" class="img-fluid rounded-4 service-image service-image-investing" alt="Real Estate Investment">
+                                <div class="position-absolute bottom-0 end-0 m-3 bg-white px-3 py-2 rounded-3 shadow service-stat-badge">
+                                    <div class="text-center">
+                                        <p class="fw-bold mb-0 service-stat-value service-stat-value-investing">15%</p>
+                                        <p class="small text-secondary mb-0 service-stat-label">Avg. Annual ROI</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -620,15 +599,17 @@
                                 </div>
                             </div>
 
-                            <button class="btn service-btn service-btn-commercial fw-bold px-4 py-2 text-white">View Commercial Properties</button>
+                            <button class="btn service-btn service-btn-commercial fw-bold px-4 py-2">View Commercial Properties</button>
                         </div>
 
                         <div class="col-lg-7">
-                                <div class="position-relative">
-                                <img src="photo/service-img-5.webp" class="img-fluid rounded-4 service-image service-image-investing" alt="Commercial Real Estate">
-                                <div class="image-stat-card-bottom">
-                                    <div class="image-stat-value">$2.5B</div>
-                                    <div class="image-stat-label">Commercial Volume</div>
+                            <div class="position-relative" style="overflow: visible;">
+                                <img loading="lazy" decoding="async" src="photo/service-img-5.png" class="img-fluid rounded-4 service-image service-image-investing" alt="Commercial Real Estate">
+                                <div class="position-absolute bottom-0 end-0 m-3 bg-white px-3 py-2 rounded-3 shadow service-stat-badge">
+                                    <div class="text-center">
+                                        <p class="fw-bold mb-0 service-stat-value service-stat-value-commercial">$2.5B</p>
+                                        <p class="small text-secondary mb-0 service-stat-label">Commercial Volume</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -651,7 +632,7 @@
 
         <div class="row justify-content-center">
             <div class="col-lg-9 col-xl-8 position-relative" style="overflow: visible;">
-                <div id="testimonialsCarousel" class="carousel slide position-relative" data-bs-ride="carousel" data-bs-interval="2000">
+                <div id="testimonialsCarousel" class="carousel slide position-relative" data-bs-ride="carousel" data-bs-interval="5000">
                     <button class="carousel-control-prev testimonial-nav-prev" type="button" data-bs-target="#testimonialsCarousel" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
@@ -678,7 +659,7 @@
                                     "EliteHomes made our home buying experience absolutely seamless. Sarah and her team went above and beyond to help us find the perfect family home in Beverly Hills. Their market knowledge and negotiation skills saved us over $100,000 on our purchase. We couldn't be happier!"
                                 </blockquote>
                                 <div class="testimonial-client d-flex align-items-start">
-                                    <img src="photo/avatar-woman.jpg" alt="Jennifer & Mark Thompson" class="testimonial-avatar me-3">
+                                    <img loading="lazy" decoding="async" src="photo/avatar-2.jpg" alt="client testimonial" class="testimonial-avatar me-3">
                                     <div>
                                         <p class="text-muted small mb-1">Client</p>
                                         <h6 class="fw-bold mb-1">Jennifer & Mark Thompson</h6>
@@ -705,7 +686,7 @@
                                     "As first-time investors, we were nervous about entering the real estate market. The EliteHomes investment team provided incredible guidance and helped us build a portfolio that's already generating 18% annual returns. Their expertise is unmatched."
                                 </blockquote>
                                 <div class="testimonial-client d-flex align-items-start">
-                                    <img src="photo/avatar-1.jpg" alt="David Rodriguez" class="testimonial-avatar me-3">
+                                    <img loading="lazy" decoding="async" src="photo/avatar-1.jpg" alt="client testimonial" class="testimonial-avatar me-3">
                                     <div>
                                         <p class="text-muted small mb-1">Client</p>
                                         <h6 class="fw-bold mb-1">David Rodriguez</h6>
@@ -732,7 +713,7 @@
                                     "Selling our Manhattan penthouse was stress-free thanks to EliteHomes. They marketed it beautifully, brought qualified buyers, and we sold for 15% above asking price in just 10 days. Their professional photography and staging made all the difference."
                                 </blockquote>
                                 <div class="testimonial-client d-flex align-items-start">
-                                    <img src="photo/avatar-woman2.jpg" alt="Amanda Chen" class="testimonial-avatar me-3">
+                                    <img loading="lazy" decoding="async" src="photo/avatar-5.jpg" alt="client testimonial" class="testimonial-avatar me-3">
                                     <div>
                                         <p class="text-muted small mb-1">Client</p>
                                         <h6 class="fw-bold mb-1">Amanda Chen</h6>
@@ -759,7 +740,7 @@
                                     "Our company needed to relocate to a larger office space quickly. EliteHomes' commercial team found us the perfect building in downtown Austin with flexible lease terms and great amenities. They handled everything professionally and efficiently."
                                 </blockquote>
                                 <div class="testimonial-client d-flex align-items-start">
-                                    <img src="photo/avatar-3.jpg" alt="Michael Foster" class="testimonial-avatar me-3">
+                                    <img loading="lazy" decoding="async" src="photo/avatar-3.jpg" alt="client testimonial" class="testimonial-avatar me-3">
                                     <div>
                                         <p class="text-muted small mb-1">Client</p>
                                         <h6 class="fw-bold mb-1">Michael Foster</h6>
@@ -902,7 +883,7 @@
                                 </div>
                                 <h6 class="fw-bold mb-1">Call Us</h6>
                                 <p class="text-secondary small mb-2">Mon-Fri from 8am to 5pm</p>
-                                <a href="tel:+15551234567" class="text-decoration-none fw-semibold" style="color: var(--primary);">+1 (555) 123-4567</a>
+                                <a href="tel:01012444365" class="text-decoration-none fw-semibold" style="color: var(--primary);">01012444365</a>
                             </div>
                         </div>
                     </div>
@@ -969,8 +950,7 @@
                                 <div>
                                     <h6 class="fw-bold mb-1">Phone</h6>
                                     <p class="text-secondary small mb-0">
-                                        <a href="tel:+15551234567" class="text-decoration-none text-secondary">+1 (555) 123-4567</a><br>
-                                        <a href="tel:+15559876543" class="text-decoration-none text-secondary">+1 (555) 987-6543</a>
+                                        <a href="tel:01012444365" class="text-decoration-none text-secondary">01012444365</a>
                                     </p>
                                 </div>
                             </div>
@@ -1033,22 +1013,22 @@
                             <div class="row g-3 mb-3">
                                 <div class="col-md-6">
                                     <label for="firstName" class="form-label small fw-semibold">First Name <span style="color: #ff4757;">*</span></label>
-                                    <input type="text" class="form-control" id="firstName" placeholder="John" required>
+                                    <input type="text" class="form-control" id="firstName" placeholder="muhammed" required>
                                 </div>
                                 <div class="col-md-6">
                                     <label for="lastName" class="form-label small fw-semibold">Last Name <span style="color: #ff4757;">*</span></label>
-                                    <input type="text" class="form-control" id="lastName" placeholder="Doe" required>
+                                    <input type="text" class="form-control" id="lastName" placeholder="sayed" required>
                                 </div>
                             </div>
 
                             <div class="mb-3">
                                 <label for="email" class="form-label small fw-semibold">Email Address <span style="color: #ff4757;">*</span></label>
-                                <input type="email" class="form-control" id="email" placeholder="john@example.com" required>
+                                <input type="email" class="form-control" id="email" placeholder="muhammed@example.com" required>
                             </div>
 
                             <div class="mb-3">
                                 <label for="phone" class="form-label small fw-semibold">Phone Number</label>
-                                <input type="tel" class="form-control" id="phone" placeholder="+1 (555) 000-0000">
+                                <input type="tel" class="form-control" id="phone" placeholder="01012444365">
                             </div>
 
                             <div class="mb-3">
@@ -1118,12 +1098,11 @@
             </div>
         </footer>
 
-        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="JS/bootstrap.bundle.min.js" defer></script>
         <script>
             
             document.getElementById('property-search-form').addEventListener('submit', function(e){
                 e.preventDefault();
-                console.log('Search submitted. Add your search logic here.');
             });
 
             
@@ -1163,51 +1142,6 @@
             }
 
         
-        </script>
-        <script>
-            (function(){
-                const toggle=document.getElementById('propertiesDropdown');
-                if(!toggle||!window.bootstrap)return;
-                const parent=toggle.closest('.nav-item.dropdown');
-                if(!parent)return;
-                const mega=parent.querySelector('.dropdown-mega');
-                const closeBtn=mega?mega.querySelector('.mega-close-btn'):null;
-                const bsDropdown=bootstrap.Dropdown.getOrCreateInstance(toggle);
-                const navbarCollapse=document.getElementById('navbarNavDropdown');
-                let originalParent=null,originalNext=null;
-                function openPortal(){
-                    if(!mega)return;
-                    originalParent=mega.parentNode;originalNext=mega.nextSibling;
-                    document.body.appendChild(mega);
-                    document.body.classList.add('mega-portal-open','mega-open');
-                    document.body.style.overflow='hidden';
-                    mega.classList.add('show');parent.classList.add('show');
-                    const focusable=mega.querySelector('a,button,input,[tabindex]:not([tabindex="-1"])');if(focusable)focusable.focus();
-                }
-                function closePortal(){
-                    if(!mega)return;
-                    if(originalParent){ if(originalNext)originalParent.insertBefore(mega,originalNext); else originalParent.appendChild(mega); }
-                    mega.classList.remove('show');parent.classList.remove('show');
-                    document.body.classList.remove('mega-portal-open','mega-open');document.body.style.overflow='';
-                    try{toggle.focus();}catch(e){}
-                }
-                toggle.addEventListener('click',function(e){
-                    // Open the portal regardless of viewport so the overlay can be positioned over the hero
-                    e.preventDefault();
-                    if(document.body.classList.contains('mega-portal-open')){
-                        closePortal();
-                    } else {
-                        if(navbarCollapse && !navbarCollapse.classList.contains('show')){
-                            try{ bootstrap.Collapse.getOrCreateInstance(navbarCollapse).show(); }catch(err){}
-                        }
-                        openPortal();
-                    }
-                });
-                if(closeBtn)closeBtn.addEventListener('click',function(e){ e.preventDefault(); if(document.body.classList.contains('mega-portal-open'))closePortal(); else try{bsDropdown.hide();}catch(err){mega.classList.remove('show');parent.classList.remove('show');document.body.classList.remove('mega-open');document.body.style.overflow='';}});
-                document.addEventListener('keydown',function(e){ if(e.key==='Escape'&&document.body.classList.contains('mega-open')){ if(document.body.classList.contains('mega-portal-open'))closePortal(); else try{bsDropdown.hide();}catch(err){mega.classList.remove('show');parent.classList.remove('show');document.body.classList.remove('mega-open');document.body.style.overflow='';} } },true);
-                if(navbarCollapse)navbarCollapse.addEventListener('hidden.bs.collapse',function(){ if(document.body.classList.contains('mega-portal-open'))closePortal(); });
-                document.addEventListener('click',function(e){ if(window.innerWidth>991)return; if(document.body.classList.contains('mega-portal-open')){ if(!mega.contains(e.target)&&!toggle.contains(e.target))closePortal(); } else { if(!mega.contains(e.target)&&!toggle.contains(e.target)&&(mega.classList.contains('show')||parent.classList.contains('show'))){ mega.classList.remove('show'); parent.classList.remove('show'); document.body.classList.remove('mega-open'); document.body.style.overflow=''; } } }, true);
-            })();
         </script>
 </body>
 </html>
